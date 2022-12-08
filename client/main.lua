@@ -61,7 +61,7 @@ function ApplyOutfit(rank)
     if PlayerData.charinfo.gender == 1 then
         gender = "female"
     end
-    local outfitData = Config.Outfits[gender][Config.PermissionHirarchy[rank or 1]]
+    local outfitData = Config.Outfits[gender][Config.PermissionHierarchy[rank or 1]]
     -- get current outfit
 
     -- apply outfitData
